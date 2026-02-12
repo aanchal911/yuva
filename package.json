@@ -15,7 +15,9 @@
     "@react-three/postprocessing": "^3.0.4",
     "@react-three/fiber": "^9.5.0",
     "@react-three/drei": "^10.7.7",
-    "maath": "^0.10.8"
+    "maath": "^0.10.8",
+    "@vitejs/plugin-react": "^5.1.4",
+    "vite": "^7.3.1"
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
