@@ -47,15 +47,13 @@
     "react": "https://esm.sh/react@^19.2.4",
     "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
     "react/": "https://esm.sh/react@^19.2.4/",
-    "three": "https://esm.sh/three@^0.182.0",
-    "@react-three/postprocessing": "https://esm.sh/@react-three/postprocessing@^3.0.4",
     "@react-three/fiber": "https://esm.sh/@react-three/fiber@^9.5.0",
+    "@react-three/postprocessing": "https://esm.sh/@react-three/postprocessing@^3.0.4",
     "@react-three/drei": "https://esm.sh/@react-three/drei@^10.7.7",
-    "maath": "https://esm.sh/maath@0.10.8",
-    "maath/random": "https://esm.sh/maath@0.10.8/random/dist/maath-random.esm",
+    "three": "https://esm.sh/three@^0.182.0",
     "maath/": "https://esm.sh/maath@^0.10.8/",
-    "@vitejs/plugin-react": "https://esm.sh/@vitejs/plugin-react@^5.1.4",
-    "vite": "https://esm.sh/vite@^7.3.1"
+    "vite": "https://esm.sh/vite@^7.3.1",
+    "@vitejs/plugin-react": "https://esm.sh/@vitejs/plugin-react@^5.1.4"
   }
 }
 </script>
@@ -70,6 +68,10 @@
         <feDisplacementMap in="SourceGraphic" in2="noise" scale="12" />
       </filter>
     </svg>
+    
     <div id="root"></div>
+
+    <!-- Vite entry point: This connects your index.tsx to the HTML -->
+    <script type="module" src="/index.tsx"></script>
   </body>
 </html>
